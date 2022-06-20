@@ -1,0 +1,24 @@
+{start: website}[ --this a category of the file
+"code": JS; { --we add js file to lml code
+const website.lml
+}
+"code": HTML; { --to build the website we use html
+<head>
+<title>lml website</title>
+</head>
+<body>
+<h1 {HTML =/ LML - [CSS{connect style="lmlcss" code="css"}]}>welcome to LML website</h1>
+</body>
+}
+"code": CSS || "name": lmlcss; {
+h1 {
+font-size: 25px;
+}
+body: {
+background-color: #94289;
+}
+}
+{port number="2000"}
+{connect code="JS"}
+{connect code="HTML"
+]
